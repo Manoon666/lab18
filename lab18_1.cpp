@@ -13,4 +13,5 @@ double overlap(Rect R1, Rect R2){
 
     if(left<right && top>bottom) return (right - left)* (top - bottom);
     else return 0;
+	
 }
